@@ -1,0 +1,140 @@
+mkdir datingapp
+cd datingapp
+
+dotnet new sln
+dotnet new webapi -o API
+dotnet sln add API
+
+-------------------
+
+Add below extension
+
+1. C# for visual studio code ( powwerd by ominisharp)
+
+Show All Commands
+
+> Assets for builds and debug
+
+
+2. C# extension --joskreativ
+
+3. material icon theme
+
+4. find - preference
+
+	files: exclude
+
+Add pattern 
+**/obj
+**/bin
+
+5. settings:
+	 Explorer : compact folders
+	un check
+
+6. command palate
+
+path --> shell command install 'code'  command i n path
+
+
+cd API
+dotnet run
+
+dotnet dev-certs https --trust
+
+dotnet watch run
+
+
+
+adding nuget package in visual studio 
+
+find nuget Gallery (pcislo)
+
+
+Creating DB Context Class
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer 
+Microsoft.EntityFrameworkCore.Tools
+
+dotnet tool install --global dotnet-ef --version 5.0.4
+
+set the parameter
+
+go settings --> find private and put _ on that text box
+
+to remove "this" from the variale initialier 
+
+go to settings --> find "this" from c# extenstion and uncheck that box
+
+
+
+Create EF migrations
+
+dotnet ef migrations add InitailCreate -o Data/Migrations
+
+dotnet ef database update
+
+---------------------------------
+pushing the code into git
+
+ git status
+
+git init
+
+C:/jai/LEARNING/web api/datingapp/.git/
+
+create gitignore
+
+dotnet new gitignore
+
+git remote add origin https://github.com/jkumarmcse/datingapp_learn_1.git
+
+git push -f origin master
+
+
+VS code Angular extensions
+
+angular lanuage service ( angular) 
+
+angular snippet ( john papa)
+
+bracket 
+
+
+Fix CORS .Net
+
+
+Adding Bootstrap
+
+https://valor-software.com/ngx-bootstrap/#/
+
+ng add ngx-bootstrap 
+
+npm install font-awesome
+
+
+
+
+
+--Adding migration 
+
+dotnet ef migrations add UserPasswordAdded
+
+dotnet ef database update
+
+Debug - vs code
+
+.net core attach
+select the app anem with .exe
+
+
+dotnet ef database drop
+
+
+sT1emLUk1
+vd000017
+
+
+
+
