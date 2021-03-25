@@ -130,10 +130,101 @@ select the app anem with .exe
 
 
 dotnet ef database drop
+dotnet ef database update
 
+
+add nuget packaget 
+
+System.IdentityModel.Tokens.Jwt
+
+Microsoft.AspnetCore.Authentication.jwtbearer
+
+ng -g -h
+
+
+Angular
+
+ng g c nav --skip-Tests
+
+create folder_serices inside app
+go to inisde the folder 
+
+ng g s account --skip-Tests
+ng g c home --skip-tests
+ng g c register --skip-tests
+
+mkdir members
+cd members
+ng g c member-list --skip-tests
+ng g c member-detail --skip-tests
+
+cd ..
+ng g c lists --skip-tests
+ng g c messages --skip-tests
+
+npm install ngx-toastr
+
+cd ..\..\client
+
+cd src
+cd app
+cd _guards
+
+ng g guard auth --skip-tests
+
+bootswatch.com 
+
+npm install bootswatch
+
+cd /src/app
+mkdir _modules
+cd _modules
+
+
+ng g m shared --flat
+
+
+
+---
+middleware
+
+
+ng g c test-errors --skip-tests
+
+creating _interceptors
+
+mkdir _interceptors
+
+cd _interceptors
+
+ng g interceptor error --skip-tests
+
+ng g c not-found --skip-tests
+
+ng g c server-error --skip-tests
+
+
+
+
+dotnet ef migrations add extendedUserEntity1
+
+dotnet ef migrations remove  
+
+dotnet ef migrations add extendedUserEntity
+
+dotnet ef database update
+
+
+https://www.json-generator.com/
+
+dotnet ef database drop
+
+AutoMapper.Extensions.Microsoft.DependencyInjection
 
 sT1emLUk1
 vd000017
+
+
 
 
 
